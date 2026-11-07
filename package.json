@@ -1,0 +1,11 @@
+{
+  "name": "insomnia-plugin-jwt-decode",
+  "version": "1.1.0",
+  "description": "Decode JWT payloads in Insomnia",
+  "main": "main.js",
+  "insomnia": {
+    "name": "jwt-decode",
+    "displayName": "JWT Decode",
+    "description": "Decode JWT (incl. OAuth2 access/identity tokens) via right-click action or {% jwt_claim %} / {% oauth2_jwt %} template tags"
+  }
+}
